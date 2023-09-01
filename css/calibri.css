@@ -1,0 +1,33 @@
+html,body{ font-family:Calibri; font-size:14px; }
+
+h1{ font-family:Calibri; font-size:24px; }
+h2{ font-family:Calibri; font-size:24px; }
+h3{ font-family:Calibri; font-size:16px; }
+h4{ font-family:Calibri; font-size:18px; }
+h5{ font-family:Calibri; font-size:16px; }
+h6{ font-family:Calibri; font-size:16px; }
+
+span.h1plus{ font-family:Calibri; color:#FFFFFF; padding-bottom:5px; }
+
+td{ font-family:Calibri; font-size:14px; }
+
+p{ font-family:Calibri; font-size:14px; }
+.big{ font-family:Calibri; font-size:18px; }
+
+#follow-us{ font-family:Calibri; font-size:16px; }
+#ss{ font-family:Calibri; font-size:14px; }
+#copyright{ font-family:Calibri; font-size:14px; }
+
+#footer-text{ font-family:Calibri; font-size:14px; }
+#footer-text a{ font-family:Calibri; font-size:14px; }
+#footer-text a:hover{ font-family:Calibri; font-size:14px; }
+
+ul{ font-family:Calibri; font-size:14px; }
+ol{ font-family:Calibri; font-size:14px; }
+li{ font-family:Calibri; font-size:14px; }
+
+
+.NFText{ font:15px Calibri; color:#2F2E2F; }
+.NFTextarea{ font:15px Calibri; color:#2F2E2F; }
+.NFSelectRight{ font:15px Calibri; padding-top:2px; }
+.NFSelectOptions{ font:15px Calibri; }

@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="description" content="Tonglee Mellors - Tax and Financial Advisers - Self Managed Superannuation, Tax, Financial Planning" />
+ <meta name="keywords" content="Self Managed Superannuation, Tax, Financial Planning" />
+ <title>Tax and Financial Advisers - Contact - Tonglee Mellors</title>
+ 
+ <link href="../css/master.css" rel="stylesheet" type="text/css" />
+ <link rel="stylesheet" href="../fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+
+ <!--[if IE 9]>
+ <link href="../css/ie9.css" rel="stylesheet" type="text/css" />
+ <![endif]-->
+ <!--[if IE 8]>
+ <link href="../css/ie8.css" rel="stylesheet" type="text/css" />
+ <![endif]-->
+ <!--[if IE 7]>
+ <link href="../css/ie7.css" rel="stylesheet" type="text/css" />
+ <![endif]-->
+ <!--[if lte IE 6]>
+ <link href="../css/ie6.css" rel="stylesheet" type="text/css" />
+ <script src="../js/DD_belatedPNG.js"></script>
+ <script>
+  DD_belatedPNG.fix('a, img, #menu, div, input, h1');
+ </script>
+ <![endif]-->
+ 
+ <script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+ <script type="text/javascript" src="../js/jquery-ui-1.7.2.custom.min.js"></script>
+ <!--<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script> -->
+ <script type="text/javascript" src="../js/jquery.cycle.all.min.js"></script>
+ <script type="text/javascript" src="../js/jquery.marquee.js"></script>
+ <script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+ <script type="text/javascript" src="../fancybox/jquery.easing-1.4.pack.js"></script>
+ <script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+
+ <script type="text/javascript">
+  $(document).ready(function () {
+  
+    if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))){
+      ImportCss("iphone.css");
+    }
+  
+    $('#slider').cycle({
+      fx: 'fade',
+      speed: 1000,
+	  random:  1,
+      timeout: 6000,
+      delay: 500,
+      prev: '#slider_next',
+      next: '#slider_prev'
+    });
+	
+	$('#slogan-inner marquee').marquee('pointer').mouseover(function(){
+     $(this).trigger('stop');
+     }).mouseout(function(){
+      $(this).trigger('start');
+     }).mousemove(function(event){
+      if($(this).data('drag') == true){
+       this.scrollLeft = $(this).data('scrollX') + ($(this).data('x') - event.clientX);
+      }
+     }).mousedown(function(event){
+      $(this).data('drag', true).data('x', event.clientX).data('scrollX', this.scrollLeft);
+     }).mouseup(function(){
+      $(this).data('drag', false);
+    });
+		
+	$('a').click(function(){
+     this.blur();
+    });
+	
+	$("a.gallery").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	200, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+
+  });
+  
+  function ImportCss(name){
+   if(document.createStyleSheet){
+    document.createStyleSheet('/css/' + name);
+   }else{
+    var newSS = document.createElement('link');
+    newSS.rel = 'stylesheet';
+    newSS.type = 'text/css';
+    newSS.href = '/css/' + name;
+    document.getElementsByTagName("head")[0].appendChild(newSS);
+   }
+  }
+ </script>
+
+</head>
+
+<body>
+
+<div id="header">
+
+ <div id="logo"></div>
+ <div id="slogan">
+  <div id="slogan-inner"><marquee behavior="scroll" direction="left" scrollamount="1" width="348">self managed superannuation fund specialists</marquee></div>
+ </div>
+ <div id="menu">
+  <div id="menu-home"><a href="/" class="home" title="Tax and Financial Advisers - Tonglee Mellors"></a></div>
+  <div id="menu-about"><a href="/about/" class="about" title="Tax and Financial Advisers - About - Tonglee Mellors"></a></div>
+  <div id="menu-services"><a href="/services/" class="services" title="Tax and Financial Advisers - Services - Tonglee Mellors"></a></div>
+  <div id="menu-articles"><a href="/articles/" class="articles" title="Tax and Financial Advisers - Articles - Tonglee Mellors"></a></div>
+  <div id="menu-contact"><a href="/contact/" class="contact-sticky" title="Tax and Financial Advisers - Contact - Tonglee Mellors"></a></div>
+ </div>
+ <div id="header-line"></div>
+
+ <div id="header-image">
+  <div id="slider">
+   <div id="slider-item-1" class="slider-item"></div>
+   <div id="slider-item-2" class="slider-item"></div>
+   <div id="slider-item-3" class="slider-item"></div>
+   <div id="slider-item-4" class="slider-item"></div>
+  </div>
+ </div>
+</div>
+
+<div id="parent">
+ 
+ <div id="content">
+ 
+  <div id="left-2column-contact">
+   <h1>contact tonglee mellors</h1>
+   <p>
+    <strong>Tonglee Mellors</strong><br />
+    67 Sydenham Road<br />
+    NORWOOD SA 5067
+   </p>
+   <p>
+    PO Box 331<br />
+    KENT TOWN SA 5071
+   </p>
+   <p>
+    <span class="lable">T:</span> 08 8363 7711<br />
+    <span class="lable">F:</span> 08 8363 7577<br />
+    <span class="lable">E:</span> <a href="mailto:info@tongleemellors.com.au" title="Tax and Financial Advisers - Tonglee Mellors">info@tongleemellors.com.au</a><br />
+    <a href="http://www.tongleemellors.com.au" target="_blank" class="alt" title="Tax and Financial Advisers - Tonglee Mellors">www.tongleemellors.com.au</a><br />
+    <br />
+    <br />
+   </p>
+   <h1>referrals</h1>
+   <p>If you are happy with our service and think we may also be able to help other people you know, we would be grateful if you would recommend us to them.</p>
+  </div>
+ 
+  <div id="right-2column-contact">
+   <iframe width="550" height="337" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=67+Sydenham+Road,+Norwood,+South+Australia&amp;aq=1&amp;sll=-25.335448,135.745076&amp;sspn=54.902961,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=67+Sydenham+Rd,+Norwood+South+Australia+5067&amp;ll=-34.915778,138.63759&amp;spn=0.023718,0.047121&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+  </div>
+
+  <div id="clear"></div>
+  
+  <div id="line-divider"><img src="../images/line.gif" width="854" height="1" /></div>
+  
+  <div id="images-column1-contact"><a class="gallery" rel="group1" href="1.jpg"><img src="1t.jpg" width="200" height="134" border="0" /></a></div>
+  <div id="images-column-contact"><a class="gallery" rel="group1" href="2.jpg"><img src="2t.jpg" width="200" height="134" border="0" /></a></div>
+  <div id="images-column-contact"><a class="gallery" rel="group1" href="3.jpg"><img src="3t.jpg" width="200" height="134" border="0" /></a></div>
+  <div id="images-column-contact"><a class="gallery" rel="group1" href="4.jpg"><img src="4t.jpg" width="200" height="134" border="0" /></a><span style="font-size:11px;"><br />Client car parking at rear of the building.</span></div>
+  
+  <div id="clear"></div>
+  
+ </div>
+
+</div>
+
+<div id="footerparent">
+ <div id="footerwrapper">
+  <div id="footer">
+   <div id="footer-line"></div>
+   <div id="footer-divider"></div>
+   <div id="ss-logo"><a href="http://saturnstudios.com.au/" target="_blank"><img src="../images/ss.png" border="0" /></a></div>
+   <div id="ss"><a href="http://saturnstudios.com.au/" target="_blank">Site by Saturn Studios Inc.</a></div>
+   <div id="copyright">Copyright &copy; Tonglee Mellors - All rights reserved</div>
+   <div id="footer-text-1">
+    67 Sydenham Road NORWOOD SA 5067<br />
+    PO Box 331 KENT TOWN SA 5071
+   </div>
+   <div id="footer-text-2">
+    <span class="footer-lable">T:</span> 08 8363 7711<br />
+    <span class="footer-lable">F:</span> 08 8363 7577
+   </div>
+   <div id="footer-text-3">
+    <span class="footer-lable">E:</span> <a href="mailto:info@tongleemellors.com.au" title="Tax and Financial Advisers - Tonglee Mellors">info@tongleemellors.com.au</a><br />
+    <span class="footer-lable">W:</span> <a href="http://www.tongleemellors.com.au" target="_blank" title="Tax and Financial Advisers - Tonglee Mellors">www.tongleemellors.com.au</a>
+   </div>
+   <div id="footer-text-4">
+    RJ Tonglee Pty Ltd ABN 66203177394 Certified Practising Accountant<br />
+    Tonglee Mellors Financial Planning Pty Ltd ABN 29115178213 Financial Advisers. Corporate Authorised Representative No. 290792<br />
+    Licensed by Tonglee Financial Services Pty Ltd ABN 63114011933 Australian Financial Services Licence No. 289225
+   </div>
+  </div>
+ </div>
+</div>
+
+</body>
+</html>
